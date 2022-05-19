@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen" href="css/small.css">
-    <link rel="stylesheet" media="screen" href="css/large.css">
+    <link rel="stylesheet" media="screen" href="../css/small.css">
+    <link rel="stylesheet" media="screen" href="../css/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     
     <title>PHP Motors Homepage</title>
@@ -25,12 +25,11 @@
         <header>
             <h1>Welcome to PHP Motors!</h1>
             <div id="aboutCar">
-                <h3>DMC Delorean</h3>
-                
+                <h3>DMC Delorean</h3> 
                 <p>3 Cup holders</p>
                 <p>Superman doors</p>  
                 <p>Fuzzy dice!</p>
-                <img src="images/vehicles/delorean.jpg" alt="Delorean">
+                <img src="../images/vehicles/delorean.jpg" alt="Delorean">
                 <button type="button">Own Today</button>
             
             </div>
@@ -50,21 +49,21 @@
                 <h3>Delorean Upgrades</h3>
                     <div id="minigrid">
                     <div class="upgrades">
-                        <img src="images/upgrades/flux-cap.png" alt="Flux capacitor">
+                        <img src="../images/upgrades/flux-cap.png" alt="Flux capacitor">
                         <a href="#">Flux Capacitor</a>
                     </div>
                     <div class="upgrades">
-                        <img src="images/upgrades/flame.jpg" alt="Flames">
+                        <img src="../images/upgrades/flame.jpg" alt="Flames">
                         <a href="#">Flame Decals</a>
 
                     </div>
                     <div class="upgrades">
-                        <img src="images/upgrades/bumper_sticker.jpg" alt="Bumper sticker">
+                        <img src="../images/upgrades/bumper_sticker.jpg" alt="Bumper sticker">
                         <a href="#">Bumper Sticker</a>
 
                     </div>
                     <div class="upgrades">
-                        <img src="images/upgrades/hub-cap.jpg" alt="Hub Cap">
+                        <img src="../images/upgrades/hub-cap.jpg" alt="Hub Cap">
                         <a href="#">Hub Caps</a>
 
                     </div>
