@@ -22,7 +22,7 @@
 
     <main>
         <h1>Server Error</h1>
-        <p>Sorry, our server seems to bve experiencing some technical difficulties. Please check back later.</p>
+        <p>Sorry, our server seems to be experiencing some technical difficulties. Please check back later.</p>
     </main>
     <footer>
         <?php require $_SERVER['DOCUMENT_ROOT'].'/phpmotors/snippets/footer.php'; ?>
