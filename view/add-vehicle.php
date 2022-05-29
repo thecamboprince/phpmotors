@@ -34,9 +34,9 @@
             <label>Description</label><br>
             <textarea required name="invDescription" id="invDescription"><?php if(isset($invDescription)){echo $invDescription;}?></textarea><br>
             <label>Image Path</label><br>        
-            <input required type="text" name="invImage" value="C:\xampp\htdocs\phpmotors\images\no-image.png" id="invImage" <?php if(isset($invImage)){echo "value='$invImage'";}  ?> ><br>
+            <input required type="text" name="invImage" value="C:\ampps\www\phpmotors\images\no-image.png" id="invImage" <?php if(isset($invImage)){echo "value='$invImage'";}  ?> ><br>
             <label>Thumbnail Path</label><br>
-            <input required type="text" name="invThumbnail" value="C:\xampp\htdocs\phpmotors\images\no-image.png" id="invThumbnail" <?php if(isset($invThumbnail)){echo "value='$invThumbnail'";}  ?> ><br>
+            <input required type="text" name="invThumbnail" value="C:\ampps\www\phpmotors\images\no-image.png" id="invThumbnail" <?php if(isset($invThumbnail)){echo "value='$invThumbnail'";}  ?> ><br>
             <label>Price</label><br>        
             <input required type="text" name="invPrice" id="invPrice" <?php if(isset($invPrice)){echo "value='$invPrice'";}  ?> ><br>
             <label>Quantity in Stock</label><br>
