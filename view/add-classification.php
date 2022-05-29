@@ -1,10 +1,4 @@
-<?php
-if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === TRUE && $_SESSION['clientData']['clientLevel'] > 1) {
-    $continue = "continue";
-} else {
-    header('Location: /phpmotors');
-}
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

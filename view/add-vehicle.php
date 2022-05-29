@@ -1,29 +1,4 @@
-<?php
-if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === TRUE && $_SESSION['clientData']['clientLevel'] > 1) {
-    $continue = "continue";
-} else {
-    header('Location: /phpmotors');
-}
-?><?php
-//redirect if not logged in
-if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === FALSE) {
-    header('Location: /phpmotors');
-}
-
-//create drop list
-$dropList = '<select name="classificationId" id="classificationId">';
-foreach ($classifications as $classification) {
-    $dropList .= "<option value='$classification[classificationId]'";
-    if(isset($classificationId)) {
-        if($classification['classificationId'] === $classificationId) {
-            $dropList .= ' selected ';
-        }
-    }
-    $dropList .= ">$classification[classificationName]</option>";
-}
-$dropList .= "</select>";
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
